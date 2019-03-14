@@ -9,7 +9,7 @@ var mongoose = require('mongoose');
 
 //Set up default mongoose connection
 // var mongoDB = 'mongodb://localhost/27017/express-locallibrary';
-var mongoDB = 'mongodb://localhost/express-locallibrary';
+var mongoDB = 'mongodb://heroku_n5cd8s00:dkd28of97ncgd9jdq5osl9f2tk@ds113866.mlab.com:13866/heroku_n5cd8s00';
 // connect to DB
 mongoose.connect(mongoDB, { useNewUrlParser: true });
 // Get Mongoose to use the global promise library
