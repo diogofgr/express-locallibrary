@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "pm2 start app.js -i max",
-    "stop": "pm2 stop app.js -i max",
+    "start": "pm2-runtime start ecosystem.config.js --env production",
+    "stop": "pm2-runtime stop ./bin/www",
     "dev": "nodemon ./bin/www"
   },
   "dependencies": {
